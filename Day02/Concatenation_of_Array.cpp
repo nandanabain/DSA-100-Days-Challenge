@@ -1,0 +1,17 @@
+// LeetCode #1929 - Concatenation of Array
+// Approach: Array traversal
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+class Solution {
+public:
+    vector<int> getConcatenation(vector<int>& nums)
+     {
+        vector<int> ans;
+        int n=nums.size();
+        for(int i = 0; i < 2 * n; i++)
+        {
+            ans.push_back(nums[i % n]);
+        }
+        return ans;
+    }
+};
