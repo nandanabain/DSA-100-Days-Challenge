@@ -2,7 +2,7 @@
 
 **Challenge:** Dregviswanathan DSA Challenge  
 **Day:** 2  
-**Problems Solved:** 4/4 ✅
+**Problems Solved:** 5/5 ✅
 
 ## 📚 Problems Solved
 
@@ -12,6 +12,7 @@
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | Running Sum | O(n) | O(n) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Find Maximum + Comparison | O(n) | O(n) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | XOR | O(n) | O(1) |
+| 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | Two Pointers | O(n) | O(n) |
 
 ## 🧠 Concepts Learned
 
@@ -19,17 +20,21 @@
 - Running sum
 - Finding the maximum element
 - Comparing elements with a maximum
-- Circular/index-based thinking
+- Two-pointer/index-based approach
 - Bitwise XOR
 - Understanding `a ^ a = 0`
 - Understanding `a ^ 0 = a`
-- Optimizing solutions using appropriate data structures
+- Circular/index-based thinking
+- Using `%` for circular indexing
+- Optimizing solutions using appropriate techniques
 
-## 💡 Key Learning
+## 💡 Key Learnings
 
 ### Single Number — XOR
 
-The most important concept from today:
+Every number appears twice except one.
+
+Using XOR:
 
 ```text
 a ^ a = 0
