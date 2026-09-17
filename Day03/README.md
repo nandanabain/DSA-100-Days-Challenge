@@ -5,7 +5,7 @@
 | # | Problem | Status | Approach |
 |---|---|---|---|
 | 1672 | Richest Customer Wealth | 🟢 | 2D Array Traversal |
-| 66 | Plus One | 🟡 | Digit-by-Digit Carry |
+| 66 | Plus One | 🟢 | Digit-by-Digit Carry |
 | 283 | Move Zeroes | 🟢 | Two Pointer / In-Place |
 | 88 | Merge Sorted Array | 🟢 | Copy + Sorting |
 | 977 | Squares of a Sorted Array | 🟢 | Squaring + Sorting |
