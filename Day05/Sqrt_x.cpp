@@ -1,0 +1,26 @@
+class Solution {
+public:
+    int mySqrt(int x)
+     {
+       long long st=1,end=x;
+       long ans = 0;
+       while(st<=end)
+       {
+        long long mid=st+(end-st)/2;
+        if(mid*mid==x)
+        {
+            return mid;
+        }
+        else if(mid*mid>x)
+        {
+            end=mid-1;
+        }
+        else
+        {
+            st=mid+1;
+            ans=mid;
+        }
+       }
+       return ans;
+    }
+};
